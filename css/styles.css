@@ -1,0 +1,28 @@
+:root {
+    --color-primary-brand: #4D5AE5;
+    --color-pressed-state: #404BBF;
+    --color-dark: #2E2F42;
+    --color-success: #31D0AA;
+    --color-text: #434455;
+    --color-subtle-text: #8E8F99;
+    --color-accent: #E7E9FC;
+    --color-light: #F4F4FD;
+    --color-modal-overlay: #2E2F42;
+    --color-hero-background: #2E2F42;
+    --color-white-background: #FFFFFF;
+    --color-modal-background: #FCFCFC;
+}
+
+body {
+    background-color: var(--color-white-background);
+    color: var(--color-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
