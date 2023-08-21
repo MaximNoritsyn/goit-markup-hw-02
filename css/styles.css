@@ -69,19 +69,19 @@ address {
 }
 
 .btn {
-    font-family: inherit;
-    font-family: 'Roboto', sans-serif;
+  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn:hover,
 .btn:focus {
-    cursor: pointer;
-    background-color: var(--color-pressed-state);
+  cursor: pointer;
+  background-color: var(--color-pressed-state);
 }
 
 .btn-filter {
   border: 1px solid var(--color-accent);
-  background: var(--color-light);
+  background-color: var(--color-light);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -191,7 +191,7 @@ address {
     text-align: center;
     font-style: normal;
     border-radius: 0px 0px 4px 4px;
-    background: var(--color-white-background);
+    background-color: var(--color-white-background);
 }
 
 .team-member .team-member-name {
