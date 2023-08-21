@@ -76,7 +76,7 @@ address {
 .btn:hover,
 .btn:focus {
     cursor: pointer;
-    background: var(--color-pressed-state);
+    background-color: var(--color-pressed-state);
 }
 
 .btn-filter {
@@ -90,7 +90,7 @@ address {
 }
 
 .btn-filter.active {
-  background: var(--color-pressed-state);
+  background-color: var(--color-pressed-state);
 }
 
 .project-card {
@@ -115,7 +115,7 @@ address {
 }
 
 .footer {
-  background: var(--color-modal-overlay);
+  background-color: var(--color-modal-overlay);
 }
 
 .footer > .logo-light {
@@ -131,7 +131,7 @@ address {
 }
 
 .hero {
-  background: var(--color-hero-background);
+  background-color: var(--color-hero-background);
   font-style: normal;
   /*text-align: center;*/
 }
@@ -145,7 +145,7 @@ address {
 }
 
 .hero .hero-btn {
-    background: var(--color-primary-brand);
+    background-color: var(--color-primary-brand);
     color: var(--color-white-background);
     font-size: 16px;
     font-weight: 500;
@@ -184,7 +184,7 @@ address {
 }
 
 .section-our-team {
-    background: var(--color-light);
+    background-color: var(--color-light);
 }
 
 .team-member {
