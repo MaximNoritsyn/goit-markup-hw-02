@@ -75,6 +75,8 @@ address {
   font-family: 'Roboto', sans-serif;
 }
 
+.hero .btn:hover,
+.hero .btn:focus,
 .list .btn:hover,
 .list .btn:focus,
 .btn:hover,
@@ -85,13 +87,19 @@ address {
 }
 
 .btn-filter {
-  color: var(--color-pressed-state);
+  color: var(--color-primary-brand);
   background-color: var(--color-light);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.btn-filter.btn:hover,
+.btn-filter.btn:focus {
+  background-color: var(--color-modal-background);
+  color: var(--color-modal-background);
 }
 
 .btn-filter.active {
@@ -194,7 +202,6 @@ address {
 .team-member {
     text-align: center;
     font-style: normal;
-    border-radius: 0px 0px 4px 4px;
     background-color: var(--color-white-background);
 }
 
