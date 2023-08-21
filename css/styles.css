@@ -19,6 +19,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+address {
+  font-style: normal;
+}
+
 .list {
   list-style-type: none;
 }
@@ -27,9 +31,15 @@ body {
   text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--color-pressed-state);
+}
+
 .logo {
+  color: var(--color-primary-brand);
   color: var(--color-dark);
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -38,8 +48,8 @@ body {
   text-transform: uppercase;
 }
 
-.logo-accent {
-  color: var(--color-primary-brand);
+.logo-dark {
+  color: var(--color-dark);
 }
 
 .navbar-link {
@@ -52,10 +62,14 @@ body {
   letter-spacing: 0.32px;
 }
 
+.navbar-link.active:hover,
+.navbar-link.active:focus {
+  color: var(--color-pressed-state);
+}
+
 .address .address-link {
   color: var(--color-text);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -63,23 +77,27 @@ body {
 
 .btn {
     font-family: inherit;
+    font-family: 'Roboto', sans-serif;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     cursor: pointer;
+    background: var(--color-pressed-state);
 }
 
 .btn-filter {
-  border-radius: 4px;
   border: 1px solid var(--color-accent);
   background: var(--color-light);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .btn-filter.active {
-  border-radius: 4px;
   background: var(--color-pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .project-card {
@@ -107,7 +125,7 @@ body {
   background: var(--color-modal-overlay);
 }
 
-.footer > .logo {
+.footer > .logo-light {
   color: var(--color-light);
 }
 
@@ -130,14 +148,12 @@ body {
   color: var(--color-white-background);
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .hero .hero-btn {
-    border-radius: 4px;
     background: var(--color-primary-brand);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--color-white-background);
     font-size: 16px;
     font-weight: 500;
@@ -149,7 +165,7 @@ body {
     font-style: normal;
 }
 
-.strategy strategy-name {
+.strategy .strategy-name {
     color: var(--color-dark);
     font-size: 20px;
     font-weight: 500;
@@ -157,7 +173,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.strategy strategy-text {
+.strategy .strategy-text {
     color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
@@ -169,10 +185,9 @@ body {
     color: var(--color-dark);
     text-align: center;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 1.12;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -185,10 +200,9 @@ body {
     font-style: normal;
     border-radius: 0px 0px 4px 4px;
     background: var(--color-white-background);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-member team-member-name {
+.team-member .team-member-name {
     color: var(--color-dark);
     font-size: 20px;
     font-weight: 500;
