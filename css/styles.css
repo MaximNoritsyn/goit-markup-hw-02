@@ -38,7 +38,6 @@ address {
 
 .logo {
   color: var(--color-primary-brand);
-  color: var(--color-dark);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -54,17 +53,11 @@ address {
 
 .navbar-link {
   color: var(--color-dark);
-  /* Body Medium */
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.navbar-link.active:hover,
-.navbar-link.active:focus {
-  color: var(--color-pressed-state);
 }
 
 .address .address-link {
@@ -132,7 +125,6 @@ address {
 .footer .footer-text {
   color: var(--color-light);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -141,7 +133,7 @@ address {
 .hero {
   background: var(--color-hero-background);
   font-style: normal;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .hero .hero-name {
