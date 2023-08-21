@@ -32,7 +32,7 @@ address {
 }
 
 .list .link:hover,
-.list .link:focus
+.list .link:focus,
 .link:hover,
 .link:focus {
   color: var(--color-pressed-state);
@@ -75,6 +75,8 @@ address {
   font-family: 'Roboto', sans-serif;
 }
 
+.list .btn:hover,
+.list .btn:focus,
 .btn:hover,
 .btn:focus {
   cursor: pointer;
