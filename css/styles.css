@@ -98,8 +98,8 @@ address {
 
 .btn-filter.btn:hover,
 .btn-filter.btn:focus {
-  background-color: var(--color-modal-background);
-  color: var(--color-modal-background);
+  background-color: var(--color-white-background);
+  color: var(--color-pressed-state);
 }
 
 .btn-filter.active {
